@@ -1,0 +1,405 @@
+*{
+  margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none!important;
+    box-sizing: content-box;
+}
+.container-flude{
+  margin: auto;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: 0;
+}
+.row{
+  margin: 0;
+}
+.w-1140{
+  width: 1140px;
+  margin: auto;
+}
+.flex{
+  display: flex;
+}
+.head2{
+  background-color: black;
+  /* padding: 10px 0 10px 0; */
+}
+.head2 ul{
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+ 
+}
+.head2 ul li a{
+  color: aliceblue;
+}
+.brand .menu{
+  margin-left:80px ;
+}
+.new .menu{
+  margin-left: 50px;
+}
+.gel .menu{
+  margin-left: 100px ;
+}
+.lacquer .menu{
+  margin-left: 150px;
+}
+.dip .menu{
+  margin-left: 360px;
+}
+.enhance .menu{
+  margin-left: 65px;
+}
+.tool .menu{
+  margin-left: 370px;
+}
+.press .menu{
+  margin-left: 680px;
+}
+.beauty .menu{
+  margin-left:900px ;
+}
+.sale .menu{
+  margin-left: 1060px;
+}
+.collec .menu{
+  margin-left:150px ;
+  height: 550px;
+}
+.menu{
+  display: none;
+  width: auto;
+  position: absolute;
+   left: 0;
+  margin-right: 0px; 
+  margin: auto;
+  z-index: 3;
+  background-color: aliceblue;
+  color:#000;
+  margin-top: 10px;
+  text-align: left;
+  padding: 20px;
+  
+ 
+}
+.head2 li:hover .menu{
+  display: block;
+  background-color: aliceblue;
+}
+.menu .w-25,
+.menu .w-50,
+.menu .w-100{
+  margin: auto;
+  line-height: 2;
+  top: 0;
+  margin: 0 20px 0 20px;
+}
+.menu .w-50 h5{
+  line-height:2;
+  font-size: medium
+}
+.menu .w-25 h5,
+.menu .w-50 h5,
+.menu .w-100 h5{
+  line-height:2;
+  font-size: medium
+}
+.menu .w-25 ul li a,
+.menu .w-50 ul li a,
+.menu .w-100 ul li a{
+  display: block;
+  color: black;
+  font-size: medium!important; 
+}
+/* big image */
+.bigimg img{
+  width: 100%;
+}
+/* sml cards */
+.w-50{
+  width: 50%;
+  margin:8px;
+  position: relative;
+  overflow: hidden;
+
+}
+.w-50 .data{
+  position: absolute;
+  padding: 20px;
+  z-index: 2;
+}
+
+.w-50 img{
+  width: 100%;
+  height: 500px;
+}
+.w-50 .data img{
+  width: 100%;
+  height: 50px;  
+}
+
+.smlimg img{
+  width: 100%;
+  height: 300px;
+}
+.w-50 button{
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+.smlimg .w-33{
+  width: 33.33%;
+  margin: 10px;
+}
+.smlimg img{
+  border: 0;
+}
+
+.midimg .image1{
+  overflow: hidden;
+}
+.midimg :hover .image1{
+  transform: scale(1.1);
+  transition: 1s;
+ }
+.smlimg :hover .image1{
+  transform: scale(1.1);
+  transition: 1s; 
+} 
+.smlimg {
+  color: #fff;
+}
+.heading h1{
+  font-family: "Playfair Display", serif;
+  margin:20px 0 20px 0;
+}
+.slider-container1{
+  background-color: #e4d3c6;
+  }
+  .slider-container2{
+    background-color: #fdfdfd;
+    }
+  .heading h1{
+    padding: 20px;
+    }
+    .polishcard .img1{
+      background-color: #fff;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      }
+      .polishcard .img2 img{
+        background-color: #fff;
+        height: 200px;
+       
+        display: flex;
+        align-items: center;
+        }
+.slick .prev{
+right:10px;
+left: 0px;
+}
+.slick .next{
+  right:15px;
+  left: 0px;
+  }
+element .style{
+  width: 320px;
+  }
+  .img1 img{
+  display: block;
+  }
+  .polishcard{
+  position: relative;
+  width: 170px;
+  }
+  .img2{
+  position:absolute;
+  top: 0;
+  display: none;
+  }
+  .polishcard:hover .img2{
+  display: block;
+  }
+  
+  .polishdata .data{
+  text-align: center;
+  }
+  .polishdata span{
+  font-size: 30px;
+  }
+  .container-flude{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .slider-container,
+  .slider-container1,
+  .slider-container2 .row{
+    margin: 0;
+  }
+  /* circle cards */
+.w-12 {
+  width: 12.5%;
+  height: 12.5%;
+  margin-top: 25px;
+}
+.w-12 img{
+  width: 100%;
+  padding: 6px;
+}
+.heading h2{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin:25px 0 25px 0;
+}
+
+.circard img{
+  width: 100%;
+  height: 140px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.circard {
+  margin-bottom: 80px; 
+  border: 1;
+  overflow: hidden;
+}
+.circard :hover .image2{
+  transform: scale(1.1);
+  transition: 1s;
+  
+}
+
+.title{
+  padding: 4px;
+  text-align: center;
+}
+/* Deal card */
+/* .container-flude{
+  margin: 0;
+}
+.sidehead button{
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+}
+.sidehead button:hover button{
+  background-color: #fff;
+  color: black;
+}
+.slick-initialized .slick-slide {
+
+  padding: 5px;
+}
+.slick-center{
+  transform: scale(1.2);
+}
+*/
+/* .container-flude{
+  margin:0;
+} */
+.detail{
+  width: 230px;
+  margin-bottom: 20px;
+} 
+.main{
+  padding: 1px;
+}
+.dealimg{
+  overflow: hidden;
+  
+}
+De
+
+.main:hover .dealimg img{
+  transform: scale(1.2);
+  transition: 1s;
+}
+/* Color club */
+/* .container{
+  margin: 0;
+} */
+.club{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.clubimg{
+  width: 50%;
+  height: 50px;
+  margin-right: 40px;
+}
+.clubimg img{
+  width: 100%;
+  height: 420px;
+}
+.clubdata{
+  text-align: center;
+}
+.wbtn button:hover{
+  border: white;
+  color:white;
+  background-color:black;
+  transition: 1s;
+  transform:translate3d();
+}
+.bbtn button:hover{
+  border-color:black;
+  color:black;
+  background-color:white;
+  transition: 1s;
+  transform:translate3d();
+}
+button{
+  padding: 6px;
+}
+.img4{
+  overflow: hidden;
+}
+.mt5{
+  margin-top: 100px;
+}
+.beyondcard:hover .img4 img{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.background{
+  background-color: #e4d3c6;
+}
+/* footer1 */
+.foot1{
+  background-color:#f3efec ;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.footer1 h1{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin:20px 0 20px 0;
+}
+.btn button{
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+}
+/* black footer */
+.footsym{
+  margin: 10px;
+  font-size: 25px;
+}
+.foot1 .row{
+  margin: 0;
+  /* because horizontal slider was coming */
+}
+
+.slider-container .row{
+   margin: 0;
+}
+
+
+
+
+
+
+
